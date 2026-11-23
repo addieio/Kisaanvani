@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js Build
+.next/
+out/
+build/
+dist/
+
+# Flutter & Android
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/local.properties
+mobile/android/key.properties
+mobile/ios/.symlinks/
+mobile/ios/Pods/
+
+# Environment Files & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+*.key
+*.pem
+*.cert
+*.crt
+.env*
+!.env.example
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Audio temporary files
+*.wav
+*.mp3
+
+# Large Binaries & Packages
+*.tar.gz
+*.zip
+*.log
+*.apk
+*.aab
+
+# Presentations & Documents
+*.ppt
+*.pptx
+*.pdf
+
+# Agent Tooling, Skills & Templates
+.agents/
+.gemini/
+.system_generated/
+hackathon_team_modules/
+scripts/prepare_hackathon_distribution.py
+
+# Git subfolder references
+git 1/
+git 2/
+design inspo/
+.vercel
+
+# Root Screenshots
+/*.png
+!public/*.png
+!public/**/*.png
